@@ -10,23 +10,13 @@
             "email": "packages@shelfwood.dev"
         }
     ],
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../shelfwood-markdown-frontmatter"
-        },
-        {
-            "type": "path",
-            "url": "../shelfwood-settings-yaml"
-        }
-    ],
     "require": {
         "php": "^8.2",
         "illuminate/support": "^11.0",
         "illuminate/http": "^11.0",
         "illuminate/routing": "^11.0",
         "illuminate/filesystem": "^11.0",
-        "shelfwood/settings-yaml": "*"
+        "shelfwood/settings-yaml": "^1.0"
     },
     "require-dev": {
         "orchestra/testbench": "^9.0",
